@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conatainer{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.head{
+    text-align: center;
+    margin: 15px 0px;
+    font-weight: 700;
+}
+
+.input_outer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.input_degree{
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+}
+
+label{
+    color: gray;
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+}
+
+input, select{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    padding: 9px;
+    margin-bottom: 15px;
+}
+
+input:focus{
+    border: 1px solid #4c49f3;
+}
+
+option{
+    background: #3c39e7;
+    color: white ;
+}
+
+.input_type{
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+}
+
+.result{
+    display: flex;
+}
+
+#ans{
+    margin-left: 10px;
+    font-size: 1.1rem;
+}
+
+.btn{
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 25px;
+    padding: 3px;
+    background-color: rgb(119, 119, 210);
+    font-weight: 700;
+    color: white;
+    letter-spacing: 1px;
+    transition: all .3s ease-in;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+span{
+    color: black;
+    font-size: 1.1rem;
+}
